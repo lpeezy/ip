@@ -1,0 +1,451 @@
+{
+    "receipes": {
+        "chicken": [
+            {
+                "title": "Butter Chicken",
+                "credit": "Priya Krishna",
+                "creditURL": "https://www.newyorker.com/culture/annals-of-gastronomy/the-butter-chicken-lady-who-made-indian-cooks-love-the-instant-pot",
+                "serveSize": "4",
+                "cookTime": "2hrs",
+                "img": "img/Krishna-Butter-Chicken-Lady-Instant-Pot.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "1 (14-ounce) can diced tomatoes (do not drain)",
+                        "ing2": "5 or 6 garlic cloves, minced",
+                        "ing3": "1 tablespoon minced ginger",
+                        "ing4": "1 teaspoon ground turmeric",
+                        "ing5": "1 teaspoon ground cayenne pepper",
+                        "ing6": "1 teaspoon ground paprika",
+                        "ing7": "2 teaspoons garam masala, divided",
+                        "ing8": "1 teaspoon ground cumin",
+                        "ing9": "1 teaspoon salt",
+                        "ing10": "1 pound boneless, skinless chicken (breasts or thighs)",
+                        "ing11": "4 ounces butter, cut into cubes, or ½ cup coconut oil",
+                        "ing12": "½ cup heavy (whipping) cream or full-fat coconut milk",
+                        "ing13": "¼ to ½ cup chopped fresh cilantro",
+                        "ing14": "",
+                        "ing15": ""
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "In the inner cooking pot of the Instant Pot, add the tomatoes, garlic, ginger, turmeric, cayenne, paprika, one teaspoon of garam masala, cumin, and salt. Mix thoroughly, then place the chicken pieces on top of the sauce.",
+                        "step2": "Lock the lid into place. Select Manual or Pressure Cook, and adjust the pressure to High. Cook for ten minutes.",
+                        "step3": "When the cooking is complete, let the pressure release naturally. Unlock the lid. Carefully remove the chicken and set it aside.",
+                        "step4": "Using an immersion blender in the pot, blend together all the ingredients into a smooth sauce. Let the sauce cool for several minutes.",
+                        "step5": "Add the butter cubes, cream, remaining teaspoon of garam masala, and cilantro. Stir until well incorporated. The sauce should be thick enough to coat the back of a spoon when you’re done.",
+                        "step6": "Remove half of the sauce and freeze it for later, or refrigerate for as long as three days.",
+                        "step7": "Add the chicken back to the sauce. Preheat the Instant Pot by selecting Sauté and adjust to Less for low heat. Let the chicken heat through. Break it up into smaller pieces, if you like, but don’t shred it.",
+                        "step8": "Serve over rice or raw cucumber noodles.",
+                        "step9": "",
+                        "step10": "",
+                        "step11": "",
+                        "step12": "",
+                        "step13": "",
+                        "step14": "",
+                        "step15": "",
+                        "step16": "",
+                        "step17": "",
+                        "step18": ""
+                    }
+                ]
+            },
+            {
+                "title": "1",
+                "credit": "",
+                "creditURL": "Tom",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/food.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            },
+            {
+                "title": "1",
+                "credit": "",
+                "creditURL": "Tom",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/pork.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            }
+        ],
+        "beef": [
+            {
+                "title": "1",
+                "credit": "",
+                "creditURL": "Tom",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/wtf.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            },
+            {
+                "title": "1",
+                "credit": "",
+                "creditURL": "Tom",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/lomein.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            },
+            {
+                "title": "1",
+                "creditURL": "Tom",
+                "credit": "",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/Krishna-Butter-Chicken-Lady-Instant-Pot.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            }
+        ],
+        "seafood": [
+            {
+                "title": "1",
+                "credit": "",
+                "creditURL": "Tom",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/Krishna-Butter-Chicken-Lady-Instant-Pot.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            },
+            {
+                "title": "1",
+                "credit": "",
+                "creditURL": "Tom",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/Krishna-Butter-Chicken-Lady-Instant-Pot.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            },
+            {
+                "title": "1",
+                "credit": "",
+                "creditURL": "Tom",
+                "serveSize": "Cruise",
+                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
+                "img": "img/Krishna-Butter-Chicken-Lady-Instant-Pot.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "test",
+                        "ing2": "test",
+                        "ing3": "test",
+                        "ing4": "test",
+                        "ing5": "test",
+                        "ing6": "test",
+                        "ing7": "test",
+                        "ing8": "test",
+                        "ing9": "test",
+                        "ing10": "test",
+                        "ing11": "test",
+                        "ing12": "test",
+                        "ing13": "test",
+                        "ing14": "test",
+                        "ing15": "test"
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "test",
+                        "step2": "test",
+                        "step3": "test",
+                        "step4": "test",
+                        "step5": "test",
+                        "step6": "test",
+                        "step7": "test",
+                        "step8": "test",
+                        "step9": "test",
+                        "step10": "test",
+                        "step11": "test",
+                        "step12": "test",
+                        "step13": "test",
+                        "step14": "test",
+                        "step15": "test",
+                        "step16": "test",
+                        "step17": "test",
+                        "step18": "test"
+                    }
+                ]
+            }
+        ]
+    }
+}

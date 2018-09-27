@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog-free IP Recipes</title>
+
+    <meta name="description" content="Instant Pot Recipes">
+    <meta name="author" content="Lauren Privette">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/flexbox/css/grid.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+</head>
+
+<body>
+    <div class="welcome">
+        <h1>Bl<span><object data="img/egg.svg" type="image/svg+xml"></object></span>g-free Instant Pot Recipes</h1>
+        <p>
+            Easy to read instant pot recipes without ads and a life story.
+        </p>
+    </div>
+
+    <div class="app-header">
+        <div class="event">
+            <div>Food Type:
+                <b id="foodName">Food Name</b>
+            </div>
+        </div>
+        <div class="event-date">
+            &nbsp;
+        </div>
+        <div class="change-event" onclick="toggleFoodPicker();">
+            Change Food
+        </div>
+    </div>
+
+    <div class="food-controls">
+        <img src="img/riceball.png" style="width: 2%;height: 2%;" />
+        <select id="foodSelector">
+            <option>Select a Food Type</option>
+        </select>
+    </div>
+
+    <div class="empty-set">
+        No recipes found for this food type
+        <small>Please select another</small>
+    </div>
+
+    <div class="recipe-grid" id="recipeGrid">
+        <!--<div id="test" class="grid-item" style="background-image: url(https://placeimg.com/300/300/nature);"></div>-->
+    </div>
+
+    <div class="recipe-info">
+        <div class="left close-info"></div>
+        <div class="right">
+            <div class="close-recipe-info"><img src="img/close.png" style="width: 80%; height: 80%" /></div>
+            <img id="fullImage" src="https://via.placeholder.com/900x400" />
+            <h1 id="recipeTitle"></h1>
+            <p id="creditURL"></p><!-- <img src="img/newtab.png" class="glyphicon"/> -->
+            <div class="recipe-details">
+                <h3 style="text-align: center">Ingredients</h3>
+                <ol>
+                    <li id="ing1"></li>
+                    <li id="ing2"></li>
+                    <li id="ing3"></li>
+                    <li id="ing4"></li>
+                    <li id="ing5"></li>
+                    <li id="ing6"></li>
+                    <li id="ing7"></li>
+                    <li id="ing8"></li>
+                    <li id="ing9"></li>
+                    <li id="ing10"></li>
+                    <li id="ing11"></li>
+                    <li id="ing12"></li>
+                    <li id="ing13"></li>
+                    <li id="ing14"></li>
+                    <li id="ing15"></li>
+                </ol>
+                <hr>
+            </div>
+            <div class="recipe-details"></div>
+            <ol>
+                <li id="ints1"></li>
+                <li id="ints2"></li>
+                <li id="ints3"></li>
+                <li id="ints4"></li>
+                <li id="ints5"></li>
+                <li id="ints6"></li>
+                <li id="ints7"></li>
+                <li id="ints8"></li>
+                <li id="ints9"></li>
+                <li id="ints10"></li>
+                <li id="ints11"></li>
+                <li id="ints12"></li>
+                <li id="ints13"></li>
+                <li id="ints14"></li>
+                <li id="ints15"></li>
+            </ol>
+        </div>
+        <!--<div id="mapDiv"></div>-->
+    </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <!--Import jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <!--Functions to run onload-->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
