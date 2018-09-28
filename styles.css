@@ -268,6 +268,7 @@ html{
     display: none;
     background-color: white;
     overflow: scroll;
+    padding-top: 500px;
 }
 
 
@@ -297,6 +298,13 @@ html{
     margin-top: 250px;
     margin: auto;
 }
+@media (max-width: 600px) { 
+    #recipeTitle{
+        margin-top: 250px;
+        margin: auto;
+        padding-top: 40px;
+    }
+}
 #creditURL{
     margin: auto;
 }
@@ -308,12 +316,17 @@ html{
 }
 
 .recipe-info .right #fullImage{
-    /* display: block; */
-    max-width: 90%;
-    max-height: 70%;
+    display: block;
+    width: 20%;
     margin: 15px auto 25px auto;
-    padding-top: 550px;
+    /* padding-top: 600px; */
 }
+
+@media (max-width: 600px) {
+    .recipe-info .right #fullImage{
+        display: none;
+    }
+  }
 
 .recipe-info .right .recipe-details{
     box-sizing: border-box;
@@ -374,3 +387,4 @@ Page Loader
     padding: 180px 0 0 0;
     display: none;
 }
+

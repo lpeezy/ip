@@ -13,15 +13,16 @@
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="node_modules/flexbox/css/grid.min.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
 
 </head>
 
 <body>
     <div class="welcome">
-        <h1>Bl<span><object data="img/egg.svg" type="image/svg+xml"></object></span>g-free Instant Pot Recipes</h1>
+        <h1>Bl<span id="eggs"><img src="img/egg.svg" type="image/svg+xml"></span>g-free Instant Pot Recipes</h1>
         <p>
-            Easy to read instant pot recipes without ads and a life story.
+            Easy to read instant pot recipes without ads or a life story.
         </p>
     </div>
 
@@ -40,7 +41,7 @@
     </div>
 
     <div class="food-controls">
-        <img src="img/riceball.png" style="width: 2%;height: 2%;" />
+        <img id="rice" src="img/riceball.png" style="width: 40px;height: 40px;" />
         <select id="foodSelector">
             <option>Select a Food Type</option>
         </select>
@@ -106,10 +107,53 @@
     </div>
     </div>
 
+    <div class="modal" tabindex="-1" role="dialog" id="eggsModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Hardboiled Eggs</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>1 cup of water. Pressure high, 3-7 minutes, quick-release.</p>
+              <img src="img/eggs.png" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="riceModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Rice</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p><strong>White rice</strong>: 1:1 to water ration, 3 minutes high pressure, natural release</p>
+              <p><strong>Brown rice</strong>: 1:1 to water ration, 22 minutes high pressure, natural release</p>
+              <p><strong>Sushi rice</strong>: 1:1 to water ration, 5 minutes high pressure, natural release</p>
+              <p><strong>Wild rice</strong>: 1:1 to water ration, 28-30-32 minutes high pressure (unburst-some burst some unburst-burst), natural release</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <!-- SCRIPTS -->
     <!--Import jQuery-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--Functions to run onload-->
     <script src="scripts.js"></script>
 </body>

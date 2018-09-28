@@ -2,6 +2,7 @@
 var totalChick;
 var totalBeef;
 var totalSea;
+var totalBake;
 
 var obj;
 $(document).ready(function () {
@@ -10,14 +11,17 @@ $(document).ready(function () {
         chickenArray.push(data.receipes.chicken);
         beefArray.push(data.receipes.beef);
         seafoodArray.push(data.receipes.seafood);
+        bakingArray.push(data.receipes.baking);
 
         chickenArray = chickenArray[0];
         beefArray = beefArray[0];
         seafoodArray = seafoodArray[0];
+        bakingArray = bakingArray[0];
 
         totalChick = chickenArray.length;
         totalbeef = beefArray.length;
-        totalSea = seafoodArray.length;
+        totalSea = seafoodArray.length; 
+        totalSea = bakingArray.length; 
 
 
     });
@@ -25,6 +29,7 @@ $(document).ready(function () {
     var chickenArray = [];
     var beefArray = [];
     var seafoodArray = [];
+    var bakingArray = [];
 
 
 
@@ -36,7 +41,7 @@ $(document).ready(function () {
 
     var photoArray = [];
     // Data
-    var foodTypes = ['Chicken', 'Beef', 'Seafood']
+    var foodTypes = ['Chicken', 'Beef', 'Seafood', 'Baking']
 
 
     $.each(foodTypes, function (val, text) {
@@ -129,6 +134,29 @@ $(document).ready(function () {
                 photoArray.push(recipeData);
             }
         }
+        if (foodSelected == "Baking") {
+            for (var i = 0, l = bakingArray.length; i < l; i++) {
+                var recipeData = {}
+
+                recipeData.imgURL = bakingArray[i].img;
+                recipeData.title = bakingArray[i].title;
+                recipeData.credit = bakingArray[i].credit;
+                recipeData.serveSize = bakingArray[i].serveSize;
+                recipeData.cookTime = bakingArray[i].cookTime;
+                recipeData.creditURL = bakingArray[i].creditURL;
+
+                // looping through list of ingredients to get all of them
+                for (var k = 0, m = 1; k < m; k++) {
+                    recipeData.ingredients = bakingArray[i].ingredients[0];
+                }
+
+                // looping through list of instructions to get all of them
+                for (var j = 0, m = 1; j < m; j++) {
+                    recipeData.instructions = bakingArray[i].instructions[0];
+                }
+                photoArray.push(recipeData);
+            }
+        }
         populatePhotoGrid();
     }
 
@@ -147,7 +175,12 @@ $(document).ready(function () {
         }
     }
 
-
+    $("#eggs").click(function () {
+        $('#eggsModal').modal('show');
+    });
+    $("#rice").click(function () {
+        $('#riceModal').modal('show');
+    });
 
     // Change Food
     toggleFoodPicker = function () {
@@ -231,4 +264,6 @@ $(document).ready(function () {
         $(".food-set").slideDown(150);
         $(".food-controls").slideDown(150);
     }
+
+   
 });
