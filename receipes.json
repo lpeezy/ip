@@ -151,51 +151,51 @@
         ],
         "beef": [
             {
-                "title": "1",
-                "credit": "",
-                "creditURL": "Tom",
-                "serveSize": "Cruise",
-                "cookTime": "https://jsonformatter.org/img/tom-cruise.jpg",
-                "img": "img/wtf.jpg",
+                "title": "Kitchen-Sink Pot Roast",
+                "credit": "Jessie Van Slyke",
+                "creditURL": "https://www.kitschencat.com/pressure-cooker-kitchen-sink-pot-roast/",
+                "serveSize": "6-8",
+                "cookTime": "2 hours",
+                "img": "img/PC-Kitchen-Sink-Pot-Roast-5.jpg",
                 "ingredients": [
                     {
-                        "ing1": "test",
-                        "ing2": "test",
-                        "ing3": "test",
-                        "ing4": "test",
-                        "ing5": "test",
-                        "ing6": "test",
-                        "ing7": "test",
-                        "ing8": "test",
-                        "ing9": "test",
-                        "ing10": "test",
-                        "ing11": "test",
-                        "ing12": "test",
-                        "ing13": "test",
-                        "ing14": "test",
-                        "ing15": "test"
+                        "ing1": "1 3 1/2 to 4 lb boneless beef rump roast",
+                        "ing2": "1 teaspoon salt",
+                        "ing3": "1 teaspoon dried thyme",
+                        "ing4": "1/2 teaspoon black pepper",
+                        "ing5": "2 tablespoons vegetable oil",
+                        "ing6": "1 1/2 cups beef broth",
+                        "ing7": "1 cup dry red wine",
+                        "ing8": "4 medium Yukon gold potatoes, halved (unpeeled)",
+                        "ing9": "2 medium yellow onions, quartered",
+                        "ing10": "4 large carrots, cut into 2-inch pieces",
+                        "ing11": "4 stalks celery, cut into 2-inch lengths",
+                        "ing12": "4 cups baby kale",
+                        "ing13": "",
+                        "ing14": "",
+                        "ing15": ""
                     }
                 ],
                 "instructions": [
                     {
-                        "step1": "test",
-                        "step2": "test",
-                        "step3": "test",
-                        "step4": "test",
-                        "step5": "test",
-                        "step6": "test",
-                        "step7": "test",
-                        "step8": "test",
-                        "step9": "test",
-                        "step10": "test",
-                        "step11": "test",
-                        "step12": "test",
-                        "step13": "test",
-                        "step14": "test",
-                        "step15": "test",
-                        "step16": "test",
-                        "step17": "test",
-                        "step18": "test"
+                        "step1": "Rub roast with salt, thyme, and black pepper.",
+                        "step2": "Select sauté or brown on your pressure cooker, add oil to the pot, then add roast to the pot once oil is hot.",
+                        "step3": "Brown for 10 minutes total – about 2-3 minutes per side.",
+                        "step4": "Turn off your pressure cooker then add broth and wine to the pot.",
+                        "step5": "Lock lid and set to high pressure for 50 minutes. When time is up, do a quick release then add potatoes, onions, carrots, and celery.",
+                        "step6": "Lock lid and cook at high pressure for 10 minutes. When time is up, do a quick release and remove vegetables and meat to a serving platter.",
+                        "step7": "Stir kale into broth in pressure cooker and let wilt for 1-2 minutes. Add kale to serving bowl, spoon some of the juices over top of meat and vegetables, and serve!",
+                        "step8": "",
+                        "step9": "",
+                        "step10": "",
+                        "step11": "",
+                        "step12": "",
+                        "step13": "",
+                        "step14": "",
+                        "step15": "",
+                        "step16": "",
+                        "step17": "",
+                        "step18": ""
                     }
                 ]
             },
@@ -443,6 +443,57 @@
                         "step16": "test",
                         "step17": "test",
                         "step18": "test"
+                    }
+                ]
+            }
+        ],
+        "baking": [
+            {
+                "title": "Banana Bread",
+                "credit": "Elise Bauer",
+                "creditURL": "https://www.simplyrecipes.com/recipes/banana_bread/",
+                "serveSize": "1 loaf",
+                "cookTime": "1 hour (10 min prep)",
+                "img": "img/banana-bread.jpg",
+                "ingredients": [
+                    {
+                        "ing1": "2 to 3 very ripe bananas, peeled",
+                        "ing2": "1/3 cup melted butter",
+                        "ing3": "1 teaspoon baking soda",
+                        "ing4": "Pinch of salt",
+                        "ing5": "3/4 cup sugar (1/2 cup if you would like it less sweet, 1 cup if more sweet",
+                        "ing6": "1 large egg, beaten",
+                        "ing7": "1 teaspoon vanilla extract",
+                        "ing8": "1 1/2 cups of all-purpose flour",
+                        "ing9": "",
+                        "ing10": "",
+                        "ing11": "",
+                        "ing12": "",
+                        "ing13": "",
+                        "ing14": "",
+                        "ing15": ""
+                    }
+                ],
+                "instructions": [
+                    {
+                        "step1": "Preheat the oven to 350°F (175°C), and butter a 4x8-inch loaf pan.",
+                        "step2": "In a mixing bowl, mash the ripe bananas with a fork until completely smooth. Stir the melted butter into the mashed bananas.",
+                        "step3": "Mix in the baking soda and salt. Stir in the sugar, beaten egg, and vanilla extract. Mix in the flour.",
+                        "step4": "Pour the batter into your prepared loaf pan. Bake for 50 minutes to 1 hour at 350°F (175°C), or until a tester inserted into the center comes out clean.",
+                        "step5": "Remove from oven and let cool in the pan for a few minutes. Then remove the banana bread from the pan and let cool completely before serving. Slice and serve. (A bread knife helps to make slices that aren't crumbly.)",
+                        "step6": "",
+                        "step7": "",
+                        "step8": "",
+                        "step9": "",
+                        "step10": "",
+                        "step11": "",
+                        "step12": "",
+                        "step13": "",
+                        "step14": "",
+                        "step15": "",
+                        "step16": "",
+                        "step17": "",
+                        "step18": ""
                     }
                 ]
             }
