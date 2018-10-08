@@ -12,16 +12,18 @@ $(document).ready(function () {
         beefArray.push(data.receipes.beef);
         seafoodArray.push(data.receipes.seafood);
         bakingArray.push(data.receipes.baking);
+        soupsArray.push(data.receipes.soups);
 
         chickenArray = chickenArray[0];
         beefArray = beefArray[0];
         seafoodArray = seafoodArray[0];
         bakingArray = bakingArray[0];
-
-        totalChick = chickenArray.length;
-        totalbeef = beefArray.length;
-        totalSea = seafoodArray.length; 
-        totalSea = bakingArray.length; 
+        soupsArray = soupsArray[0];
+        
+        //totalChick = chickenArray.length;
+        //totalbeef = beefArray.length;
+        //totalSea = seafoodArray.length; 
+        //totalbake = bakingArray.length; 
 
 
     });
@@ -30,6 +32,7 @@ $(document).ready(function () {
     var beefArray = [];
     var seafoodArray = [];
     var bakingArray = [];
+    var soupsArray = [];
 
 
 
@@ -41,7 +44,7 @@ $(document).ready(function () {
 
     var photoArray = [];
     // Data
-    var foodTypes = ['Chicken', 'Beef', 'Seafood', 'Baking']
+    var foodTypes = ['Chicken', 'Beef', 'Seafood', 'Baking','Soups & Stews']
 
 
     $.each(foodTypes, function (val, text) {
@@ -153,6 +156,29 @@ $(document).ready(function () {
                 // looping through list of instructions to get all of them
                 for (var j = 0, m = 1; j < m; j++) {
                     recipeData.instructions = bakingArray[i].instructions[0];
+                }
+                photoArray.push(recipeData);
+            }
+        }
+        if (foodSelected == "Soups & Stews") {
+            for (var i = 0, l = soupsArray.length; i < l; i++) {
+                var recipeData = {}
+
+                recipeData.imgURL = soupsArray[i].img;
+                recipeData.title = soupsArray[i].title;
+                recipeData.credit = soupsArray[i].credit;
+                recipeData.serveSize = soupsArray[i].serveSize;
+                recipeData.cookTime = soupsArray[i].cookTime;
+                recipeData.creditURL = soupsArray[i].creditURL;
+
+                // looping through list of ingredients to get all of them
+                for (var k = 0, m = 1; k < m; k++) {
+                    recipeData.ingredients = soupsArray[i].ingredients[0];
+                }
+
+                // looping through list of instructions to get all of them
+                for (var j = 0, m = 1; j < m; j++) {
+                    recipeData.instructions = soupsArray[i].instructions[0];
                 }
                 photoArray.push(recipeData);
             }
